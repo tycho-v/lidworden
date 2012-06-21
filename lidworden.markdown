@@ -14,12 +14,14 @@ Eisen
 
 # Wensen
 
+* Bereikbaar op lidworden.piratenpartij.nl
 * Winkel om promotiemateriaal te verkopen én lid worden op verweven: een winkel voor beide. Vanwege vindbaarheid.
 * Onderdeel van de Drupalsite, vanwege beheersbaarheid. Extra systemen kosten kostbare maintainancetijd.
 * Beheer teksten en velden vanuit zelfde account en admin omgeving als rest van de site.
 * In toekomst kunnen uitbreiden, integreren en/of migreren. Dus opslaan in Database.
 * Mogelijkheid tot promoten vanuit website en banners.
 * Webwinkel moet TZT ingericht worden. Dubbel werk proberen te voorkomen.
+* In layout en stijl van de homepage.
 
 # Mogelijkheden, Randvoorwaarden
 
