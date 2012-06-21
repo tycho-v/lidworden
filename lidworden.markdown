@@ -33,4 +33,14 @@ Eisen
 De mockup is gemaakt met [Balsamiq](http://www.balsamiq.com/). Mockup
 kan bewerkt worden in de [bron](https://github.com/piratenpartij/lidworden/blob/doc/lidworden.bmml).
 
+Header, footer en sidebar zijn bewust leegelaten. Daarin kan eventuele
+essentiële informatie getoond worden, maar de focus dient te liggen op
+het lid worden. Niet op het overbrengen van nieuws, berichten of andere
+communicatie.
+
+Links en andere navigatie is vooraleer losgekoppeld van het Drupal CMS,
+daarom dubbel uitgevoerd. Bij wijzingen van een link, footer, header,
+menu-item of zijbalk in Drupal, moet dit nogmaals op de lidworden pagina
+gedaan worden. Tenzij het op die laatste is weggelaten.
+
 ![mockup](https://github.com/piratenpartij/lidworden/raw/doc/lidworden.png)
