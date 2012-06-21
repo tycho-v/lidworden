@@ -27,3 +27,8 @@ Eisen
 * Handmatig invoeren in CRM, van nieuwe aanmeldingen uit mail is voorlopig voldoende.
 * Hoeft (nog) niet te koppelen aan bestaande of te bouwen CRM.
 
+# Mockup
+De mockup is gemaakt met [Balsamiq](http://www.balsamiq.com/). Mockup
+kan bewerkt worden in de [bron](https://github.com/piratenpartij/lidworden/blob/doc/lidworden.bmml).
+
+![mockup](https://github.com/piratenpartij/lidworden/raw/doc/lidworden.png)
