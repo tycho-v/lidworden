@@ -22,6 +22,7 @@ Eisen
 * Mogelijkheid tot promoten vanuit website en banners.
 * Webwinkel moet TZT ingericht worden. Dubbel werk proberen te voorkomen.
 * In layout en stijl van de homepage.
+* (optioneel) Vrijwillig meer betalen dan 17.50 (dus direct ook een donatie doen).
 
 # Mogelijkheden, Randvoorwaarden
 
