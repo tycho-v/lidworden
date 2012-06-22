@@ -1,30 +1,22 @@
 <?php
 require 'Slim/Slim.php';
-require 'config.php';
-require 'ideal.php';
+require 'config.inc';
+require 'ideal.inc';
 
 $app = new Slim(array(
   'templates.path' => './templates'
 ));
 
-$app->get('/', 'get_landing');
-$app->post('/pirate', 'add_pirate');
-$app->get('/success', 'get_success');
-$app->get('/error', 'get_error');
-
-$app->run();
-
-/***************************************************************************
- *                                Callbacks                                *
- ***************************************************************************/
-function get_landing() {
-}
-
-/**
- */
-function add_pirate() {
+$app->get('/', function () use ($app) {
+  $app->render('_head.inc');
+  $app->render(
+    'landing.php'
+  );
+  $app->render('_footer.inc');
+});
+$app->post('/pirate', function () use ($app) {
   // @TODO: lookup: sanitize?
-  $pirate = Slim::getInstance()->request()->params(); //@TODO: lookup proper reference!!
+  $pirate = $app->request()->params(); //@TODO: lookup proper reference!!
 
   if (not(
     validate('initials', FALSE) &&
@@ -45,26 +37,30 @@ function add_pirate() {
   $ideal->amount = DEFAULT_AMOUNT;
   $ideal->order_id = $pirate->id;
   $ideal->amount = (float) AMOUNT;
-  $ideal->order_description = "
-:w
-:q
-:wq
-:wq
-:wq
-
-
+  $ideal->order_description = "Piratenpartij lidmaatschap";
+  $base = $app->request()->getUrl();
+  $ideal->url_cancel  = "{$base}/error";
+  $ideal->url_success = "{$base}/success";
     // render form.
-  render( //@TODO lookup format of render
+  $app->render(
     'pirate.php',
-    array($ideal->hidden_form(),
+    array('hidden_form' => $ideal->hidden_form())
   );
-}
+});
 
-function get_success() {
-}
+$app->get('/success', function () use ($app) {
+  $app->render(
+    'success.php'
+  );
+});
 
-function get_error() {
-}
+$app->get('/error', function () use ($app) {
+ $app->render(
+    'error.php'
+  );
+});
+
+$app->run();
 
 /***************************************************************************
  *                                Utilities                                *
@@ -77,7 +73,7 @@ function get_error() {
  */
 function validate($name, $allow_blank = FALSE, $format = '') {
   $value = $request->fields(); //@TODO lookup.
-  return FALSE
+  return FALSE;
 }
 
 /*
