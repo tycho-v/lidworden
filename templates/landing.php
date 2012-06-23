@@ -1,7 +1,10 @@
 <h2>Lid worden</h2>
 
 <p>
-
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
 </p>
 <?php if ($flash['error']): ?>
   <?php print $flash["error"] ?>
@@ -33,6 +36,7 @@
       <img src="ideal.png" alt="iDeal logo"/>
       <span class="ideal">iDeal</span>
     </div>
+  </div>
   <div class="form-wrapper">
     <input type="submit" value="Opslaan en betalen">
   </div>
