@@ -1,0 +1,20 @@
+.row .columns {
+  float: left;
+}
+.row .two {
+  width: 48%;
+  margin-right: 10px;
+}
+.submit input,
+.big {
+  font-size: 3em;
+  font-weight: bold;
+}
+.submit input {
+  float: right;
+  margin: 10px 0;
+}
+.error {
+  font-weight:bold;
+  font-color: red;
+}
