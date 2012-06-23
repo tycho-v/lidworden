@@ -3,7 +3,9 @@
 <p>
 
 </p>
-
+<?php if ($flash['error']): ?>
+  <?php print $flash["error"] ?>
+<?php endif; ?>
 <form action="pirate" method="post" accept-charset="utf-8">
   <div class="form-wrapper">
     <label for="initials">Voorletters:<span class="required-marker">*</span></label><input type="text" name="initials" value="" id="initials">
@@ -24,7 +26,7 @@
   <div class="row">
     <div class="two columns big">
       <label>Kosten:</label></br>
-      € 17.50
+      € <?php printf("%0.2f", $default_amount) ?>
     </div>
     <div class="two columns">
       <label>Betalen met:</label></br>
