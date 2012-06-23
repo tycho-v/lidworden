@@ -27,9 +27,8 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.
   </div>
 
   <div class="row">
-    <div class="two columns big">
-      <label>Kosten:</label></br>
-      € <?php printf("%0.2f", $default_amount) ?>
+    <div class="two columns">
+      <label>Kosten:</label><span class="big">€ <?php printf("%0.2f", $default_amount) ?></span>
     </div>
     <div class="two columns">
       <label>Betalen met:</label></br>

@@ -1,0 +1,11 @@
+.row .columns {
+  float: right;
+}
+.row .two {
+  width: 48%;
+  margin-right: 10px;
+}
+.big {
+  font-size: 3em;
+  font-weight: bold;
+}
