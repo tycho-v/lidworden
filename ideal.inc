@@ -35,7 +35,7 @@ class Ideal {
   }
 
   public function amount_in_cents() {
-    return (int) $this->amount * 100;
+    return (int) ($this->amount * 100);
   }
 
   public function valid_untill() {
