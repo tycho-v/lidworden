@@ -157,7 +157,6 @@ function write_mail($pirate) {
  *   +-----------+--------------+------+-----+---------+----------------+
  */
 function write_pirate($pirate) {
-  var_dump($pirate);
   $sql = "INSERT INTO pirates (status, email, initials, name, address, city) VALUES (:status, :email, :initials, :name, :address, :city)";
   try {
     $db = get_connection();

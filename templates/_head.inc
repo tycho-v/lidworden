@@ -13,23 +13,23 @@
     <title>Piratenpartij | Voor een vrije
     informatiesamenleving.</title>
     <link type="text/css" rel="stylesheet"
-    href="/css/css_Z_KQyXTcIGmFPRfGZOOTJ1xsEckXlqMhF53CkTgnOVA.css"
+    href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_Z_KQyXTcIGmFPRfGZOOTJ1xsEckXlqMhF53CkTgnOVA.css"
     media="all" />
     <link type="text/css" rel="stylesheet"
-    href="/css/css_kXjEu8cY0twkc2P53QZ1Znn-9ypPSC9xuFue-IX-VTo.css"
+    href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_kXjEu8cY0twkc2P53QZ1Znn-9ypPSC9xuFue-IX-VTo.css"
     media="all" />
     <link type="text/css" rel="stylesheet"
-    href="/css/css_1tiydg9oM8DhvEVqJiYQyaoTqkwM7zNPdbyxkMy3U40.css"
+    href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_1tiydg9oM8DhvEVqJiYQyaoTqkwM7zNPdbyxkMy3U40.css"
     media="all" />
     <link type="text/css" rel="stylesheet"
-    href="/css/css_miuSYFsTJrJI6k3OdKy5D6UO9BAjIzi7zn-fJ0kDxI8.css"
+    href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_miuSYFsTJrJI6k3OdKy5D6UO9BAjIzi7zn-fJ0kDxI8.css"
     media="all" />
     <!--[if (lt IE 9)&(!IEMobile)]>
     <link type="text/css" rel="stylesheet" href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_68ZjX5hzqIHOnVsPeeVMak2hdaaRWa6HM3SUzyJMFek.css" media="all" />
     <![endif]-->
     <!--[if gte IE 9]><!-->
     <link type="text/css" rel="stylesheet"
-    href="/css/css_PFcsLCmOIvJcaEQ90M3hEvU69dUrbOlBoCy2bo7Qnx0.css"
+    href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_PFcsLCmOIvJcaEQ90M3hEvU69dUrbOlBoCy2bo7Qnx0.css"
     media="all" />
     <link type="text/css" rel="stylesheet"
     href="/css/lidworden.css"
@@ -173,4 +173,4 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
                   <div class="block-inner clearfix">
                     <div class="content clearfix">
                       <div class="view view-frontpage-blog view-id-frontpage_blog view-display-id-page_1 view-dom-id-d27613c3f1ca61f397c5f89757c88076">
-                        CONTENT
+

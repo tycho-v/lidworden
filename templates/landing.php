@@ -1,4 +1,4 @@
-<h2>Lid worden</h2>
+<h1>Lid worden</h1>
 
 <p>
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
@@ -7,7 +7,7 @@ vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.
 </p>
 <?php if ($flash['error']): ?>
-  <?php print $flash["error"] ?>
+  <div class="messages error"><?php print $flash["error"] ?></div>
 <?php endif; ?>
 <form action="pirate" method="post" accept-charset="utf-8">
   <div class="form-wrapper">
@@ -32,11 +32,10 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </div>
     <div class="two columns">
       <label>Betalen met:</label></br>
-      <img src="ideal.png" alt="iDeal logo"/>
-      <span class="ideal">iDeal</span>
+      <img src="/css/ideal.png" alt="iDeal logo"/>
     </div>
   </div>
-  <div class="form-wrapper">
-    <input type="submit" value="Opslaan en betalen">
+  <div class="submit">
+    <input type="submit" class="big" value="Opslaan en betalen">
   </div>
 </form>
