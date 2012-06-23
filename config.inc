@@ -5,6 +5,8 @@
 
 define('IDEAL_URL', 'https://www.ideal-simulator.nl/lite/');
 
+define('SECRETS_FILE', 'secrets.inc');
+/**
 define('MERCHANT_ID', '123456789');
 define('SUB_ID', '0');
 define('HASH_KEY', 'Password');
@@ -15,6 +17,7 @@ define('DB_HOST', 'localhost');
 define('DB_USER', 'drupal');
 define('DB_PASS', 'drupal');
 define('DB_NAME', 'lidworden_development');
+**/
 
 define('DEFAULT_AMOUNT', '17.50');
 

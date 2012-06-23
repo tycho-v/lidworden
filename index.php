@@ -2,6 +2,7 @@
 require 'Slim/Slim.php';
 require 'config.inc';
 require 'ideal.inc';
+if (SECRETS_FILE) require SECRETS_FILE;
 
 $app = new Slim(array(
   'templates.path' => './templates'
