@@ -18,4 +18,4 @@ define('DB_NAME', 'lidworden_development');
 
 define('DEFAULT_AMOUNT', '17.50');
 
-
+define('EMAIL_TO', "secretaris <ber@webschuur.com>");

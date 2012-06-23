@@ -42,8 +42,8 @@ $app->post('/pirate', function () use ($app) {
       $app->redirect("/");
   }
 
-  write_mail();
   $pirate = write_pirate($pirate);
+  write_mail($pirate);
   // @TODO: if pirate['id'] is not set, writing to database failed. Redirect to error in that case.
   //Prepare form for payment
   $ideal = new Ideal(MERCHANT_ID, SUB_ID, HASH_KEY, AQUIRER_NAME, AQUIRER_URL);
@@ -114,6 +114,31 @@ function valid($app, $name, $allow_blank = FALSE, $format = '', $message = '') {
   return $valid;
 }
 
+/**
+ * Write a mail. Message is ugly and hardcoded.
+ *  @TODO: unhardcode.
+ * @param $pirate: associative arry containing a pirate record.
+ * @returns status from php mail();
+ */
+function write_mail($pirate) {
+  $from = "Lid Worden <noreply@piratenpartij.nl>";
+  $to   = EMAIL_TO;
+  $subject = "[Lid] Nieuw lid";
+
+  $body = '';
+  foreach($pirate as $name => $column) {
+    $clean_column = htmlspecialchars($column, ENT_QUOTES, 'UTF-8');
+    $body .= " $name \t$clean_column \n";
+  }
+  $body = wordwrap($body);
+  $headers =
+    'From: '. $from . "\r\n" .
+    'Reply-To: '. $from . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+  //Possibly extend with smtp using PEAR mail. But PEAR Mail sucks just as hard as php mail().
+  return mail($to, $subject, $body, $headers);
+}
 
 /*
  * Database:
