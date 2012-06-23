@@ -2,16 +2,20 @@
 //Private settings, Do not commit to public repos.
 
 // Simply define below constants.
-//
-define('MERCHANT_ID', '');
-define('SUB_ID', '');
-define('HASH_KEY', '');
-define('AQUIRER_NAME', '');
-define('AQUIRER_URL', '');
 
-define('DB_HOST', '');
-define('DB_USER', '');
-define('DB_PASS', '');
-define('DB_NAME', '');
+define('IDEAL_URL', 'https://www.ideal-simulator.nl/lite/');
 
-define('AMOUNT', '17.50');
+define('MERCHANT_ID', '123456789');
+define('SUB_ID', '0');
+define('HASH_KEY', 'Password');
+define('AQUIRER_NAME', 'Piratenpartij');
+define('AQUIRER_URL', 'http://piratenpartij.nl');
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'drupal');
+define('DB_PASS', 'drupal');
+define('DB_NAME', 'lidworden_development');
+
+define('DEFAULT_AMOUNT', '17.50');
+
+
