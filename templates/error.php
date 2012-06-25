@@ -1,9 +1,9 @@
 <h1>Oeps! Er ging iets mis</h1>
 <p>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/> At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.
+ De betaling is niet gelukt! Mogelijk omdat jij of je bank het geanulleerd hebben, maar ook mogelijk door een of andere onbekende fout. <br/>
+</p>
+<p>
+   We hopen dat je ondanks dit, toch graag lid wilt worden. Dat kan, ook zonder iDeal. 
+  Neem dan <a href="http://www.piratenpartij.nl/contact">contact op</a>, zodat we je kunnen helpen.
 </p>
 
-<a href="http://www.piratenpartij.nl/contact">Neem contact op</a>

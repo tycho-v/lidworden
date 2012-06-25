@@ -13,14 +13,16 @@
                   <div class="block-inner clearfix">
                     <h2 class="block-title">Help</h2>
                     <div class="content clearfix">
-                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                     no sea takimata sanctus est Lorem ipsum dolor sit amet.<br/>
-                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                     tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                     vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                     no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                      <p>
+                        Om lid te worden, hebben we je adres, woonplaats en volledige naam nodig. Je kunt hier met iDeal betalen. Wil je op een andere manier betalen, kijk dan op <a href="http://www.piratenpartij.nl/lid-worden">de homepage voor meer informatie en contactgegevens</a>.
+                      <p>
+                      <p>
+                      De Piratenpartij schrijft je graag in als lid van de partij. 
+                      De kosten daarvan bedragen 17,50 euro per kalenderjaar.
+                      Als lid heb je een stem op de jaarlijkse Algemene Leden Vergadering.
+                      Daarnaast ben je welkom op alle informele en formele bijeenkomsten van de Piratenpartij.
+                      Ook telt het aantal leden van een politieke partij mee bij het bepalen van de subsidies voor onder andere wetenschappelijk onderzoek.
+                      <p>
                     </div>
                   </div>
                 </section>
