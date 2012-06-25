@@ -10,8 +10,7 @@
     <link rel="shortcut icon"
     href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/favicon.ico"
     type="image/vnd.microsoft.icon" />
-    <title>Piratenpartij | Voor een vrije
-    informatiesamenleving.</title>
+    <title>Piratenpartij | Lid worden.</title>
     <link type="text/css" rel="stylesheet"
     href="https://www.piratenpartij.nl/sites/piratenpartij.nl/files/css/css_Z_KQyXTcIGmFPRfGZOOTJ1xsEckXlqMhF53CkTgnOVA.css"
     media="all" />
