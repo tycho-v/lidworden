@@ -19,6 +19,6 @@ define('DB_PASS', 'drupal');
 define('DB_NAME', 'lidworden_development');
 **/
 
-define('DEFAULT_AMOUNT', '13.00');
+define('DEFAULT_AMOUNT', '17.50');
 
 define('EMAIL_TO', "Secretaris <secretaris@piratenpartij.nl>");

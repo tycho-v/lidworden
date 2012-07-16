@@ -6,11 +6,6 @@
   Wij krijgen een mail, kijken alles met de hand na en sturen je per mail een update van je lidmaatschap, dat kan dus eventjes duren.
 </p>
 
-<h2>Actie</h2>
-<p>
-Voor 1 oktober willen we 1000 leden hebben Daarom betaal je nu in plaats van 17.50 slechts 13 euro!
-</p>
-
 <?php if ($flash['error']): ?>
   <div class="messages error"><?php print $flash["error"] ?></div>
 <?php endif; ?>
