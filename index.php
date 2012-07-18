@@ -126,11 +126,12 @@ function write_mail($pirate) {
   $to   = EMAIL_TO;
   $subject = "[Lid] Nieuw lid";
 
-  $body = '';
-  foreach($pirate as $name => $column) {
-    $clean_column = htmlspecialchars($column, ENT_QUOTES, 'UTF-8');
-    $body .= " $name \t$clean_column \n";
-  }
+  $body=  $pirate["initials"] . "," . 
+          $pirate["name"] . "," . 
+	        $pirate["address"] . "," .
+	        $pirate["city"] . "," . 
+	        $pirate["email"];
+  $body = htmlspecialchars($body, ENT_QUOTES, 'UTF-8');
   $body = wordwrap($body);
   $headers =
     'From: '. $from . "\r\n" .
